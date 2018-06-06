@@ -115,6 +115,7 @@ function stopProgram() {
   stopTimer();
   removeIncreaseButtonListener();
   removeDecreaseButtonListener();
+  removeLikeButtonListener()
 }
 
 function restartProgram() {
